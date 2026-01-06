@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartExam</string>
+    
+    <!-- Common -->
+    <string name="loading">Yükleniyor…</string>
+    <string name="error">Hata</string>
+    <string name="cancel">İptal</string>
+    <string name="save">Kaydet</string>
+    <string name="delete">Sil</string>
+    <string name="edit">Düzenle</string>
+    <string name="back">Geri</string>
+    <string name="submit">Gönder</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="settings">Ayarlar</string>
+    <string name="language">Dil</string>
+    <string name="english">English</string>
+    <string name="turkish">Türkçe</string>
+    
+    <!-- Auth -->
+    <string name="login">Giriş Yap</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="email">E-posta</string>
+    <string name="password">Şifre</string>
+    <string name="confirm_password">Şifre Tekrar</string>
+    <string name="full_name">Ad Soyad</string>
+    <string name="welcome_back">Tekrar hoş geldiniz! Devam etmek için giriş yapın.</string>
+    <string name="create_account">Hesap Oluştur</string>
+    <string name="login_as">Olarak giriş yap:</string>
+    <string name="register_as">Olarak kayıt ol:</string>
+    <string name="student">Öğrenci</string>
+    <string name="teacher">Öğretmen</string>
+    <string name="dont_have_account">Hesabınız yok mu?</string>
+    <string name="already_have_account">Zaten hesabınız var mı?</string>
+    <string name="fill_all_fields">Lütfen tüm alanları doldurun</string>
+    <string name="invalid_email">Lütfen geçerli bir e-posta adresi girin</string>
+    <string name="password_min_length">Şifre en az 6 karakter olmalıdır</string>
+    <string name="passwords_not_match">Şifreler eşleşmiyor</string>
+    <string name="email_exists">Bu e-posta adresi zaten kayıtlı</string>
+    <string name="invalid_credentials">Geçersiz e-posta veya şifre</string>
+    <string name="wrong_role">Bu hesap %1$s olarak kayıtlı. Lütfen doğru rolü seçin.</string>
+    <string name="show_password">Şifreyi göster</string>
+    <string name="hide_password">Şifreyi gizle</string>
+    
+    <!-- Teacher Dashboard -->
+    <string name="teacher_dashboard">Öğretmen Paneli</string>
+    <string name="welcome_user">Hoş geldiniz, %1$s</string>
+    <string name="create_exam">Sınav Oluştur</string>
+    <string name="no_exams_yet">Henüz sınav yok</string>
+    <string name="create_first_exam">Başlamak için ilk sınavınızı oluşturun</string>
+    <string name="published">Yayınlandı</string>
+    <string name="draft">Taslak</string>
+    <string name="publish">Yayınla</string>
+    <string name="unpublish">Yayından Kaldır</string>
+    <string name="results">Sonuçlar</string>
+    <string name="delete_exam">Sınavı Sil</string>
+    <string name="delete_exam_confirm">\"%1$s\" sınavını silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.</string>
+    <string name="minutes_short">%1$d dk</string>
+    
+    <!-- Create/Edit Exam -->
+    <string name="edit_exam">Sınavı Düzenle</string>
+    <string name="exam_details">Sınav Detayları</string>
+    <string name="exam_name">Sınav Adı</string>
+    <string name="subject">Ders</string>
+    <string name="grade_level">Sınıf Seviyesi</string>
+    <string name="schedule">Zamanlama</string>
+    <string name="exam_date">Sınav Tarihi</string>
+    <string name="start_time">Başlangıç Saati</string>
+    <string name="end_time">Bitiş Saati</string>
+    <string name="duration_minutes">Süre (dakika)</string>
+    <string name="exam_settings">Ayarlar</string>
+    <string name="passing_score">Geçme Notu (%)</string>
+    <string name="show_results_immediately">Sonuçları Hemen Göster</string>
+    <string name="results_after_submission">Öğrenciler sonuçları gönderdikten hemen sonra görür</string>
+    <string name="results_after_exam_ends">Sonuçlar sınav süresi bittikten sonra görünür</string>
+    <string name="questions_count">Sorular (%1$d)</string>
+    <string name="add_question">Soru Ekle</string>
+    <string name="question_number">Soru %1$d</string>
+    <string name="question_text">Soru Metni</string>
+    <string name="answer_options">Cevap Seçenekleri</string>
+    <string name="option_label">Seçenek %1$s</string>
+    <string name="option_optional">Seçenek %1$s (İsteğe bağlı)</string>
+    <string name="remove_question">Soruyu sil</string>
+    <string name="update_exam">Sınavı Güncelle</string>
+    <string name="exam_name_required">Sınav adı gereklidir</string>
+    <string name="subject_required">Ders gereklidir</string>
+    <string name="grade_level_required">Sınıf seviyesi gereklidir</string>
+    <string name="all_questions_need_text">Tüm soruların metni olmalıdır</string>
+    <string name="options_required">Tüm sorular için A, B, C, D seçenekleri gereklidir</string>
+    <string name="at_least_one_question">En az bir soru gereklidir</string>
+    
+    <!-- Teacher Exam Results -->
+    <string name="exam_results">Sınav Sonuçları</string>
+    <string name="no_results_yet">Henüz sonuç yok</string>
+    <string name="no_students_taken">Henüz hiçbir öğrenci bu sınava girmedi</string>
+    <string name="statistics">İstatistikler</string>
+    <string name="total">Toplam</string>
+    <string name="completed">Tamamlandı</string>
+    <string name="avg_score">Ort. Puan</string>
+    <string name="passed">Geçti</string>
+    <string name="failed">Kaldı</string>
+    <string name="unknown_student">Bilinmeyen Öğrenci</string>
+    
+    <!-- Student Dashboard -->
+    <string name="student_dashboard">Öğrenci Paneli</string>
+    <string name="available_exams">Mevcut Sınavlar</string>
+    <string name="my_results">Sonuçlarım</string>
+    <string name="no_available_exams">Mevcut sınav yok</string>
+    <string name="check_back_later">Yeni sınavlar için daha sonra tekrar kontrol edin</string>
+    <string name="start_exam">Sınava Başla</string>
+    <string name="pass_threshold">Geçme: %1$d%%</string>
+    <string name="no_completed_exams">Tamamlanmış sınav yok</string>
+    <string name="exam_history_here">Sınav geçmişiniz burada görünecek</string>
+    <string name="completed_date">Tamamlandı: %1$s</string>
+    
+    <!-- Take Exam -->
+    <string name="exam">Sınav</string>
+    <string name="question_of">Soru %1$d / %2$d</string>
+    <string name="exit">Çık</string>
+    <string name="exit_exam">Sınavdan Çık?</string>
+    <string name="exit_exam_message">Çıkmak istediğinizden emin misiniz? İlerlemeniz kaydedilecek, ancak süre işlemeye devam edecek.</string>
+    <string name="continue_exam">Sınava Devam Et</string>
+    <string name="submit_exam">Sınavı Gönder?</string>
+    <string name="submit_exam_confirm">Sınavınızı göndermek istediğinizden emin misiniz?</string>
+    <string name="unanswered_warning">Uyarı: %1$d cevaplanmamış sorunuz var.</string>
+    <string name="submitting_exam">Sınavınız gönderiliyor…</string>
+    <string name="previous">Önceki</string>
+    <string name="next">Sonraki</string>
+    <string name="select_answer">Cevabınızı seçin:</string>
+    <string name="time_expired">Süre Doldu</string>
+    <string name="in_progress">Devam Ediyor</string>
+    <string name="not_started">Başlamadı</string>
+    
+    <!-- Exam Result -->
+    <string name="exam_result">Sınav Sonucu</string>
+    <string name="congratulations">Tebrikler!</string>
+    <string name="keep_trying">Tekrar Deneyin!</string>
+    <string name="you_passed">Sınavı geçtiniz!</string>
+    <string name="you_failed">Bu sefer geçemediniz</string>
+    <string name="ran_out_of_time">Süreniz doldu</string>
+    <string name="your_score">Puanınız</string>
+    <string name="passing_score_label">Geçme Notu: %1$d%%</string>
+    <string name="detailed_results">Detaylı Sonuçlar</string>
+    <string name="correct">Doğru</string>
+    <string name="incorrect">Yanlış</string>
+    <string name="blank">Boş</string>
+    <string name="answer_review">Cevap İncelemesi</string>
+    <string name="your_answer">Cevabınız: %1$s</string>
+    <string name="correct_answer">Doğru cevap: %1$s</string>
+    <string name="not_answered">Cevaplanmadı</string>
+    <string name="results_locked">Detaylı cevaplar sınav süresi bittikten sonra görünür olacak.</string>
+    <string name="back_to_dashboard">Panele Dön</string>
+    
+    <!-- Settings -->
+    <string name="select_language">Dil Seçin</string>
+    <string name="app_settings">Uygulama Ayarları</string>
+</resources>

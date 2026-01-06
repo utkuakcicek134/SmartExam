@@ -1,0 +1,156 @@
+<resources>
+    <string name="app_name">SmartExam</string>
+    
+    <!-- Common -->
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="logout">Logout</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="turkish">Türkçe</string>
+    
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="welcome_back">Welcome back! Please login to continue.</string>
+    <string name="create_account">Create Account</string>
+    <string name="login_as">Login as:</string>
+    <string name="register_as">Register as:</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="fill_all_fields">Please fill in all fields</string>
+    <string name="invalid_email">Please enter a valid email address</string>
+    <string name="password_min_length">Password must be at least 6 characters</string>
+    <string name="passwords_not_match">Passwords do not match</string>
+    <string name="email_exists">Email already exists</string>
+    <string name="invalid_credentials">Invalid email or password</string>
+    <string name="wrong_role">This account is registered as %1$s. Please select the correct role.</string>
+    <string name="show_password">Show password</string>
+    <string name="hide_password">Hide password</string>
+    
+    <!-- Teacher Dashboard -->
+    <string name="teacher_dashboard">Teacher Dashboard</string>
+    <string name="welcome_user">Welcome, %1$s</string>
+    <string name="create_exam">Create Exam</string>
+    <string name="no_exams_yet">No exams yet</string>
+    <string name="create_first_exam">Create your first exam to get started</string>
+    <string name="published">Published</string>
+    <string name="draft">Draft</string>
+    <string name="publish">Publish</string>
+    <string name="unpublish">Unpublish</string>
+    <string name="results">Results</string>
+    <string name="delete_exam">Delete Exam</string>
+    <string name="delete_exam_confirm">Are you sure you want to delete \"%1$s\"? This action cannot be undone.</string>
+    <string name="minutes_short">%1$d min</string>
+    
+    <!-- Create/Edit Exam -->
+    <string name="edit_exam">Edit Exam</string>
+    <string name="exam_details">Exam Details</string>
+    <string name="exam_name">Exam Name</string>
+    <string name="subject">Subject</string>
+    <string name="grade_level">Grade Level</string>
+    <string name="schedule">Schedule</string>
+    <string name="exam_date">Exam Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="duration_minutes">Duration (minutes)</string>
+    <string name="exam_settings">Settings</string>
+    <string name="passing_score">Passing Score (%)</string>
+    <string name="show_results_immediately">Show Results Immediately</string>
+    <string name="results_after_submission">Students see results right after submission</string>
+    <string name="results_after_exam_ends">Results visible after exam time ends</string>
+    <string name="questions_count">Questions (%1$d)</string>
+    <string name="add_question">Add Question</string>
+    <string name="question_number">Question %1$d</string>
+    <string name="question_text">Question Text</string>
+    <string name="answer_options">Answer Options</string>
+    <string name="option_label">Option %1$s</string>
+    <string name="option_optional">Option %1$s (Optional)</string>
+    <string name="remove_question">Remove question</string>
+    <string name="update_exam">Update Exam</string>
+    <string name="exam_name_required">Exam name is required</string>
+    <string name="subject_required">Subject is required</string>
+    <string name="grade_level_required">Grade level is required</string>
+    <string name="all_questions_need_text">All questions must have text</string>
+    <string name="options_required">Options A, B, C, D are required for all questions</string>
+    <string name="at_least_one_question">At least one question is required</string>
+    
+    <!-- Teacher Exam Results -->
+    <string name="exam_results">Exam Results</string>
+    <string name="no_results_yet">No results yet</string>
+    <string name="no_students_taken">No students have taken this exam yet</string>
+    <string name="statistics">Statistics</string>
+    <string name="total">Total</string>
+    <string name="completed">Completed</string>
+    <string name="avg_score">Avg Score</string>
+    <string name="passed">Passed</string>
+    <string name="failed">Failed</string>
+    <string name="unknown_student">Unknown Student</string>
+    
+    <!-- Student Dashboard -->
+    <string name="student_dashboard">Student Dashboard</string>
+    <string name="available_exams">Available Exams</string>
+    <string name="my_results">My Results</string>
+    <string name="no_available_exams">No available exams</string>
+    <string name="check_back_later">Check back later for new exams</string>
+    <string name="start_exam">Start Exam</string>
+    <string name="pass_threshold">Pass: %1$d%%</string>
+    <string name="no_completed_exams">No completed exams</string>
+    <string name="exam_history_here">Your exam history will appear here</string>
+    <string name="completed_date">Completed: %1$s</string>
+    
+    <!-- Take Exam -->
+    <string name="exam">Exam</string>
+    <string name="question_of">Question %1$d of %2$d</string>
+    <string name="exit">Exit</string>
+    <string name="exit_exam">Exit Exam?</string>
+    <string name="exit_exam_message">Are you sure you want to exit? Your progress will be saved, but the timer will continue running.</string>
+    <string name="continue_exam">Continue Exam</string>
+    <string name="submit_exam">Submit Exam?</string>
+    <string name="submit_exam_confirm">Are you sure you want to submit your exam?</string>
+    <string name="unanswered_warning">Warning: You have %1$d unanswered question(s).</string>
+    <string name="submitting_exam">Submitting your exam…</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="select_answer">Select your answer:</string>
+    <string name="time_expired">Time Expired</string>
+    <string name="in_progress">In Progress</string>
+    <string name="not_started">Not Started</string>
+    
+    <!-- Exam Result -->
+    <string name="exam_result">Exam Result</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="keep_trying">Keep Trying!</string>
+    <string name="you_passed">You passed the exam!</string>
+    <string name="you_failed">You didn\'t pass this time</string>
+    <string name="ran_out_of_time">You ran out of time</string>
+    <string name="your_score">Your Score</string>
+    <string name="passing_score_label">Passing Score: %1$d%%</string>
+    <string name="detailed_results">Detailed Results</string>
+    <string name="correct">Correct</string>
+    <string name="incorrect">Incorrect</string>
+    <string name="blank">Blank</string>
+    <string name="answer_review">Answer Review</string>
+    <string name="your_answer">Your answer: %1$s</string>
+    <string name="correct_answer">Correct: %1$s</string>
+    <string name="not_answered">Not answered</string>
+    <string name="results_locked">Detailed answers will be available after the exam period ends.</string>
+    <string name="back_to_dashboard">Back to Dashboard</string>
+    
+    <!-- Settings -->
+    <string name="select_language">Select Language</string>
+    <string name="app_settings">App Settings</string>
+</resources>
